@@ -191,25 +191,25 @@ nav a {
 
 #ledwall{
   grid-area: ledwall;
-  background-image: url("/starter/images/02-portfolio-1.jpg");
+  background-image: url("./starter/images/02-portfolio-1.jpg");
   border: 6px solid var(--primary-color);
 }
 
 #calculator{
   grid-area: calculator;
-  background-image: url("/starter/images/02-portfolio-2.jpg");
+  background-image: url("./starter/images/02-portfolio-2.jpg");
   border: 6px solid var(--primary-color);
 }
 
 #pastelpuzzels{
   grid-area: pastelpuzzels;
-  background-image: url("/starter/images/02-portfolio-3.jpg");
+  background-image: url("./starter/images/02-portfolio-3.jpg");
   border: 6px solid var(--primary-color);
 }
 
 #runbuddy{
   grid-area: runbuddy;
-  background-image: url("/starter/images/02-portfolio-1.jpg");
+  background-image: url("./starter/images/02-portfolio-1.jpg");
   border: 6px solid var(--primary-color);
 }
 

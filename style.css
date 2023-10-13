@@ -185,7 +185,7 @@ nav a {
 
 #surfreport{
   grid-area: surfreport;
-  background-image: url("/starter/images/02-portfolio-4.jpg");
+  background-image: url("./starter/images/02-portfolio-4.jpg");
   border: 6px solid var(--primary-color);
 }
 
@@ -226,7 +226,7 @@ nav a {
 /* Portfolio Grid */
 .side-block{
   background-color: var(--primary-color);
-  width: 14%;
+  width: 15%;
   position: absolute;
   bottom: 20px;
   height: 60px;

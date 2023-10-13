@@ -1,3 +1,10 @@
+/* Variables */
+:root{
+  --primary-color: #bef5ef;
+  --dark: #4d5256;
+}
+
+/* Universal selector */
 * {
   box-sizing: border-box;
 }
@@ -20,4 +27,193 @@ h6 {
 
 p {
   margin: 0;
+}
+
+/* Header */
+header{
+  display: flex;
+  height: 90px;
+  background-color: var(--dark);
+  justify-content: space-between;
+}
+
+/* main logo */
+.logo {
+  width: 15%;
+  background-color: var(--primary-color);
+  padding-left: 100px;
+  font-size: 2.3rem;
+  margin: 15px 0;
+  color: rgb(41, 38, 38);
+}
+
+/* Nav */
+nav {
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  padding: 0 20px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+  border-bottom: 4px solid var(--primary-color);
+}
+
+/* Hero Banner */
+.hero-banner {
+  background-image: url(/starter/images/02-hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  height: 15.62rem;
+}
+
+/* Hero H2 text */
+.hero-banner h2 {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 20px;
+  margin-right: 40px;
+  bottom: 20px;
+  width: 15%;
+  background-color: var(--primary-color);
+}
+
+.side-block{
+  background-color: var(--primary-color);
+  width: 14%;
+  position: absolute;
+  bottom: 20px;
+  height: 60px;
+}
+.heading{
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--dark);
+  padding-left: 8px;
+}
+
+.subheading{
+  font-size: 0.8rem;
+  color: var(--dark);
+  padding-left: 8px;
+}
+
+/* Page Wrapper */
+.page-wrapper {
+  margin: 30px 80px 20px 20px;
+}
+
+#about {
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+    "about-me about-me-text";
+}
+
+.about-me {
+  grid-area: about-me;
+  border-right: 3px solid #597785;
+  margin-left: 6rem;
+  padding-right: 1rem;
+  height: 200px;
+  font-size: 3rem;
+  color: #597785;
+}
+
+.about-me-text {
+  padding-left: 1.7rem;
+  grid-area: about-me-text;
+}
+
+#work {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 17.5% 82.5%;
+  grid-template-areas: 
+    "surfreport surfreport"
+    "ledwall calculator"
+    "pastelpuzzels runbuddy"
+    ;
+} 
+
+#portfolioGrid {
+  display: grid;
+  position: relative;
+  padding-left: 1.7rem;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+    "surfreport surfreport"
+    "ledwall calculator"
+    "pastelpuzzels runbuddy"
+    ;
+} 
+
+.work {
+  border-right: 3px solid #597785;
+  margin-left: 6rem;
+  height: 900px;
+  padding-right: 2rem;
+  font-size: 3rem;
+  color: #597785;
+}
+
+#surfreport{
+  grid-area: surfreport;
+  background-image: url("../images/02-portfolio-4.jpg");
+  border: 6px solid var(--primary-color);
+}
+
+#ledwall{
+  grid-area: ledwall;
+  background-image: url("../images/02-portfolio-1.jpg");
+  border: 6px solid var(--primary-color);
+}
+
+#calculator{
+  grid-area: calculator;
+  background-image: url("../images/02-portfolio-2.jpg");
+  border: 6px solid var(--primary-color);
+}
+
+#pastelpuzzels{
+  grid-area: pastelpuzzels;
+  background-image: url("../images/02-portfolio-3.jpg");
+  border: 6px solid var(--primary-color);
+}
+
+#runbuddy{
+  grid-area: runbuddy;
+  background-image: url("../images/02-portfolio-1.jpg");
+  border: 6px solid var(--primary-color);
+}
+
+.portfolioGridArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  align-content: end;
+  position: relative;
 }

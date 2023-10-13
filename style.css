@@ -75,7 +75,7 @@ nav a {
 
 /* Hero Banner */
 .hero-banner {
-  background-image: url(/starter/images/02-hero-bg.jpg);
+  background-image: url(./starter/images/02-hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -185,31 +185,31 @@ nav a {
 
 #surfreport{
   grid-area: surfreport;
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("/starter/images/02-portfolio-4.jpg");
   border: 6px solid var(--primary-color);
 }
 
 #ledwall{
   grid-area: ledwall;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("/starter/images/02-portfolio-1.jpg");
   border: 6px solid var(--primary-color);
 }
 
 #calculator{
   grid-area: calculator;
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("/starter/images/02-portfolio-2.jpg");
   border: 6px solid var(--primary-color);
 }
 
 #pastelpuzzels{
   grid-area: pastelpuzzels;
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("/starter/images/02-portfolio-3.jpg");
   border: 6px solid var(--primary-color);
 }
 
 #runbuddy{
   grid-area: runbuddy;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("/starter/images/02-portfolio-1.jpg");
   border: 6px solid var(--primary-color);
 }
 
